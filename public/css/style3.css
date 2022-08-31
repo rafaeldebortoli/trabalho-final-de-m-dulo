@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+table{
+    display: inline;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+div{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100;
+}
+#descricao{
+    width: 400px;
+    height: 30px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.306);
+}
+#detalhar{
+    width: 400px;
+    height: 30px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.306);
+}
+#btn{
+    width: 90px;
+    height: 32px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right:375px;
+}
+
+th{
+    display: inline;
+    margin-right: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+tr{
+    display: inline;
+    margin-right: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+td{
+    display: inline;
+    margin-right: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+hr{
+    margin-top: 70px;
+    padding:10px;
+}
+

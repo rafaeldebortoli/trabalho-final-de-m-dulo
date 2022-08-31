@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    position: fixed;
+    width: 50%;
+    height: 97%;
+    margin: 10px 10px 10px;
+    border-radius: 10px;
+}
+
+h2{
+    float: right;
+    margin-right: 100px;
+    margin-top: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: gray;
+}
+
+input#senhaLogin{
+    position: absolute;
+    float: left;
+    margin-top: 470px;
+    margin-left:930px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.375);
+}
+
+input#nomeLogin{
+    position: absolute;
+    float: left;
+    margin-top: 470px;
+    margin-left:675px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.375);
+}
+
+input#entrar{
+float: left;
+margin-top: 100px;
+width: 450px;
+height: 40px;
+margin-left:700px;
+border-radius: 5px;
+background-color: green;
+color: aliceblue;
+border: none;
+}
+/*
+button#criarConta{
+    float: left;
+    margin-top:10px;
+    margin-left:700px;
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.349);
+    color:green;
+    border: none;
+}
+*/
