@@ -8,14 +8,19 @@ login.addEventListener('submit', (event) => {
 
 function logar(){
    let usuario = buscarUsuarios();
-    let usuarioEncontrado = usuario.find((usuario) => usuario.senha === senhaLogin.value);
+    let usuarioEncontrado = usuario.find((usuario) => usuario.senha === senhaLogin.value && usuario.nome === nomeLogin.value );
     if (!usuarioEncontrado) {
         alert("nome ou senha incorretas! Verifique e tente novamente!");
         login.reset();
         return;
     }
+
+    const usuarioLogado = {
+        id:usuarioEncontrado.id,
+        nome: usuarioEncontrado.nome,
+    }
    
-   localStorage.setItem('usuarioLogado', usuarioEncontrado.senha);
+   localStorage.setItem('usuarioLogado', JSON.stringify(usuarioLogado));
     window.location.href = 'recados.html';
 }
 function buscarUsuarios() {

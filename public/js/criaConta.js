@@ -36,12 +36,14 @@ function validarCampos() {
       alert("senha já existe!");
       return;
    }
- 
+   const random = Math.floor((1+Math.random())* new Date().getTime()).toString(16).substring(1);
+ const id = random + random;
  const novoUsuario = {
+   id: `${id}-${id}-${id}-${id}`,
    nome: nomeHTML.value,
    email:emailHTML.value,
    senha:senhaHTML.value,
-   usuario:[]
+   recados:[]
  };
 
  listaUsuarios.push(novoUsuario);
